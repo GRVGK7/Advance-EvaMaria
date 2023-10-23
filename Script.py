@@ -13,7 +13,7 @@ def is_enabled(value, default):
 class script(object):
     START_TXT = environ.get("START_TXT", "")
     HELP_TXT = "Help Commands"
-    ABOUT_TXT = """<b>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/imdb7bot><b>All Movies & Series Bot</b></a>\n
+    ABOUT_TXT = """<b>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/imdb7bot><b>All {Movies & Series} Bot</b></a>\n
 👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/GRVGK7><b>GRV</b></a>\n
 📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ\n
 📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3\n
