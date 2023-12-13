@@ -30,6 +30,7 @@ class script(object):
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and Search Bot will respond whenever a keyword is found the message
+
 <b>NOTE:</b>
 1. Search Bot should have admin privillage.
 2. only admins can add filters in a chat.
@@ -37,7 +38,7 @@ class script(object):
 
 <b>Commands and Usage:</b>
 • /filter - <code>add a filter in chat</code>
-• /filters - <code>list all the filters of a chat</code
+• /filters - <code>list all the filters of a chat</code>
 • /del - <code>delete a specific filter in chat</code>
 • /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
     BUTTON_TXT = """Help: <b>Buttons</b>
