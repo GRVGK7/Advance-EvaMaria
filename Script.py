@@ -11,14 +11,17 @@ def is_enabled(value, default):
         return default
 
 class script(object):
-    START_TXT = environ.get("START_TXT", "")
-    HELP_TXT = "Help Commands"
-    ABOUT_TXT = """<b>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/imdb7bot><b>All Movies & Series Bot</b></a>\n
-👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/GRVGK7><b>GRV</b></a>\n
+    START_TXT = environ.get("START_TXT", """<b>𝐇𝐞𝐥𝐥𝐨 {},
+Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>,I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇ Fᴏʀ Yᴏᴜ
+Jᴜsᴛ Sᴛᴀʀᴛ Tʜᴇ Bᴏᴛ Iɴ PM Oʀ Aᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ""")
+    HELP_TXT = """<b>Hᴇʏ {}
+    Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs"""
+    ABOUT_TXT = """<b>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/ams7bot><b>Aʟʟ {Mᴏᴠɪᴇs & Sᴇʀɪᴇs} Bᴏᴛ</b></a>\n
+👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/GRVGK7><b>ɢʀᴠ</b></a>\n
 📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ\n
 📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3\n
 📡 ʜᴏsᴛᴇᴅ ᴏɴ : VPS\n
-📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/TelegramTips><b>Telegram Tips</b></a>\n
+📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/TelegramTips><b>Tᴇʟᴇɢʀᴀᴍ Tɪᴘs</b></a>\n
 🌟 ᴠᴇʀsɪᴏɴ : ᴠ 4.0\n</b>"""
     SOURCE_TXT = """<b>𝐂𝐫𝐞𝐚𝐭𝐞 𝐎𝐧𝐞 𝐋𝐢𝐤𝐞 𝐓𝐡𝐢𝐬:</b>
 » I will Create One Bot For You<b>
@@ -26,7 +29,6 @@ class script(object):
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and Search Bot will respond whenever a keyword is found the message
-
 <b>NOTE:</b>
 1. Search Bot should have admin privillage.
 2. only admins can add filters in a chat.
@@ -34,7 +36,7 @@ class script(object):
 
 <b>Commands and Usage:</b>
 • /filter - <code>add a filter in chat</code>
-• /filters - <code>list all the filters of a chat</code>
+• /filters - <code>list all the filters of a chat</code
 • /del - <code>delete a specific filter in chat</code>
 • /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
     BUTTON_TXT = """Help: <b>Buttons</b>
