@@ -12,11 +12,12 @@ def is_enabled(value, default):
 
 class script(object):
     START_TXT = environ.get("START_TXT", """<b>𝐇𝐞𝐥𝐥𝐨 {},
-Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>,I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇ Fᴏʀ Yᴏᴜ
-Jᴜsᴛ Sᴛᴀʀᴛ Tʜᴇ Bᴏᴛ Iɴ PM Oʀ Aᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ""")
-    HELP_TXT = """<b>Hᴇʏ {}
-    Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs"""
-    ABOUT_TXT = """<b>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/ams7bot><b>Aʟʟ {Mᴏᴠɪᴇs & Sᴇʀɪᴇs} Bᴏᴛ</b></a>\n
+    Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>,
+    I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇ Fᴏʀ Yᴏᴜ
+    Jᴜsᴛ Sᴛᴀʀᴛ Tʜᴇ Bᴏᴛ Iɴ PM Oʀ Aᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ</b>""")
+    HELP_TXT = """<b>Hᴇʏ {},
+    Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs</b>"""
+    ABOUT_TXT = """<b>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/ams7bot><b>Aʟʟ Mᴏᴠɪᴇs & Sᴇʀɪᴇs Bᴏᴛ</b></a>\n
 👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/GRVGK7><b>ɢʀᴠ</b></a>\n
 📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ\n
 📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3\n
